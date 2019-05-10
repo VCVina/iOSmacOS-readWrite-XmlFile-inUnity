@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/readQRscenes/ScanQRCode.unity
     guid: 60a536ac6fdc54b55a6319bf2f201d10
   - enabled: 1

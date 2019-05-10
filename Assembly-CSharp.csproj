@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7C2B4C1D-6A43-46A7-B871-FEF8BB97960E}</ProjectGuid>
+    <ProjectGuid>{A9473813-047B-1C8B-AB6D-815562F7B154}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,37 +60,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\readQRscripts\CreateQRCode.cs" />
-    <Compile Include="Assets\readQRscripts\readQR.cs" />
-    <Compile Include="Assets\readQRscripts\ScanQRCode.cs" />
-    <Compile Include="Assets\scriptsConnection\client1.cs" />
-    <Compile Include="Assets\scriptsLoadJson\JsonArrayModel.cs" />
-    <Compile Include="Assets\scriptsLoadJson\JsonDeserialize.cs" />
-    <Compile Include="Assets\scriptsLoadJson\JsonObjectModel.cs" />
-    <Compile Include="Assets\scriptsLoadXls\buttonController.cs" />
-    <Compile Include="Assets\scriptsLoadXls\DataDAO.cs" />
-    <Compile Include="Assets\scriptsLoadXls\Item.cs" />
-    <Compile Include="Assets\scriptsLoadXls\ItemManager.cs" />
     <Compile Include="Assets\scriptsLoadXml\car.cs" />
     <Compile Include="Assets\scriptsLoadXml\clickDisplayText.cs" />
     <Compile Include="Assets\scriptsLoadXml\clickEvent.cs" />
     <Compile Include="Assets\scriptsLoadXml\loadXml.cs" />
-    <None Include="Assets\Resources\test.xml" />
     <None Include="Assets\StreamingAssets\carDatabaseXml.xml" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -294,49 +282,49 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.7f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json-3.5">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Newtonsoft.Json-3.5.dll</HintPath>
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Newtonsoft.Json-3.5.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/LitJson.dll</HintPath>
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="Excel">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Plugins/Excel.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Plugins/I18N.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N.West">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Plugins/I18N.West.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N.CJK">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Plugins/I18N.CJK.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N.MidEast">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Plugins/I18N.MidEast.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N.Rare">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Plugins/I18N.Rare.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N.Other">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Plugins/I18N.Other.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/UnityPackages/JsonNet-Lite/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Plugins/Excel.dll</HintPath>
     </Reference>
     <Reference Include="zxing.unity">
-      <HintPath>/Users/nike/Desktop/comprehensiveLoadfileTest/Assets/Plugins/zxing.unity.dll</HintPath>
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Plugins/zxing.unity.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Plugins/I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Plugins/I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.CJK">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Plugins/I18N.CJK.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.MidEast">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Plugins/I18N.MidEast.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.Rare">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Plugins/I18N.Rare.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.Other">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/Plugins/I18N.Other.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Assets/UnityPackages/JsonNet-Lite/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>/Users/nike/Documents/GitHub/learning-forARCarsProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.7f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

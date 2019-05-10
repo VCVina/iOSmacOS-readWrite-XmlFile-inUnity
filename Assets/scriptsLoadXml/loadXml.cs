@@ -12,11 +12,10 @@ public class loadXml : MonoBehaviour
     protected string xmlPath;
     protected string tempXmlPath;
     public string carIDbyQR;
-    //该参数改变我们搜索xml时的查找ID
     // Start is called before the first frame update
     void Start()
     {
-
+        carIDbyQR = "testabcfirst";
         xmlPath = Application.streamingAssetsPath + "/carDatabaseXml.xml";
         tempXmlPath = Application.persistentDataPath + "/carDatabaseXml.xml";
         ReadXml();
@@ -30,25 +29,20 @@ public class loadXml : MonoBehaviour
 
     void ReadXml()
     {
-        string carIDbyQR = GameObject.Find("readQR").GetComponent<readQR>().transport;
+        Debug.Log(tempXmlPath);
         //___________________________________________________
         if (!File.Exists(tempXmlPath))
-            saveNewXml("testabcfirst#奔驰#512B#红色#153", true);
+            saveNewXml("first#奔驰#512B#红色#153", true);
         //___________________________________________________
 
         XmlDocument xm1 = new XmlDocument();
-        //修改
-        //xm1.Load(tempXmlPath);
         xm1.Load(tempXmlPath);
-        //查找本地是否存在/cars/carID == "testabc123" 的元素
-        //测试用"testabc124#大众#512B#红色#153"
         string dataFromInternet = carIDbyQR + "#奥拓#512B#红色#153";//来自互联网的返回车型的数据
         Debug.Log(dataFromInternet);//////
         XmlNode searchPoint = xm1.SelectSingleNode("/cars/car[@carID='" + carIDbyQR + "']");
         carTest.checkIndex = carTest.checkIndex + searchPoint;
         if (searchPoint == null)
         {
-            //searchPoint没有找到本地对应的车辆数据，所以执行「本地没有缓存」的工作（显示+保存
             saveNewXml(dataFromInternet,false);
             displayXml();
         }
@@ -63,7 +57,6 @@ public class loadXml : MonoBehaviour
 
         void saveNewXml(string carData,bool choose)
         {
-            //save函数存在无法覆盖
             Debug.Log("执行存储函数");
             string[] readCarElement = carData.Split('#');
             string getID = "none",
@@ -80,8 +73,6 @@ public class loadXml : MonoBehaviour
             getPrice = readCarElement[4];
 
             XmlDocument addXml = new XmlDocument();
-            //true 初始化
-            //false 直接读persistent目录
             //___________________________________________________
             if (choose)
                 addXml.Load(xmlPath);
@@ -124,19 +115,12 @@ public class loadXml : MonoBehaviour
 
             File.WriteAllText(tempXmlPath,addXml.InnerXml);
             //___________________________________________________
-            //addXml.Save(xmlPath);
-            //addXml.Save(tempXmlPath);
-            //Debug.Log(tempXmlPath);
             Debug.Log("保存完毕");
         }
 
 
         void displayXml()
         {
-            //执行显示函数
-            //TextAsset textAsset = (TextAsset)Resources.Load("carDatabaseXml", typeof(TextAsset));
-            //XmlDocument xm1 = new XmlDocument();
-            //xm1.LoadXml(textAsset.text);
             XmlDocument displayXmlOrigin = new XmlDocument();
             XmlDocument displayXmlTemp = new XmlDocument();
             //修改
