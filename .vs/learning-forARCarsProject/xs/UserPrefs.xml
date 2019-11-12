@@ -1,17 +1,14 @@
 ﻿<Properties StartupConfiguration="{A9473813-047B-1C8B-AB6D-815562F7B154}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scriptsLoadXml/loadXml.cs">
     <Files>
-      <File FileName="Assets/scriptsLoadXml/loadXml.cs" Line="37" Column="1" />
+      <File FileName="Assets/scriptsLoadXml/loadXml.cs" Line="2" Column="1" />
+      <File FileName="Assets/scriptsLoadXml/clickDisplayText.cs" Line="20" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="learning-forARCarsProject" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="scriptsLoadXml" expanded="True">
-                <Node name="loadXml.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -19,7 +16,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="111e1527-9e40-4bee-8166-6766cbf3eb7c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ab9b5a15-00c5-410c-b830-6820986de1a4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
